@@ -1,3 +1,4 @@
+// Clock with alarm and set time
 module clock (clk,clkenb,rst,hr,min,sec,setenbtime,sethr,setmin,setsec,setenbalarm,alarmout);
   output reg [5:0]hr,min,sec;
   output reg alarmout;
