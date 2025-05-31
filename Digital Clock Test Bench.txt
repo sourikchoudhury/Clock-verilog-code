@@ -1,5 +1,4 @@
-// Code your testbench here
-// or browse Examples
+// Digital clock test bench
 module tb;
   reg [5:0]sethr,setmin,setsec;
   reg clk,clkenb,rst,setenbtime,setenbalarm;
